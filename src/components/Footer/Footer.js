@@ -3,7 +3,6 @@ import './Footer.css'
 import './SocialItem.js'
 import socialData from './socialData.js'
 import SocialItem from './SocialItem.js'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Footer(){
 

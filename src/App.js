@@ -5,12 +5,13 @@ import Introduction from './components/Introduction/Introduction.js'
 import Services from './components/Services/Services.js'
 import Footer from './components/Footer/Footer.js';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fab } from '@fortawesome/free-brands-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
+import Skills from './components/Skills/Skills.js';
 
 
-library.add(fab)
+library.add(fab,fas)
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Introduction/>
       <Services/>
       <About/>
+      <Skills/>
       <Footer/>
     </div>
   );
