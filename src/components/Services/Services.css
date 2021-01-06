@@ -9,7 +9,7 @@
 }
 
 .section__title--services {
-    color: #6500ea;
+    color: var(--clr-accent);
     position: relative;
 }
 
