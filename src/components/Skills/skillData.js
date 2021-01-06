@@ -15,7 +15,7 @@ const skillData=[
     {
         id: "3",
         field: "Cloud / Containers",
-        skill: ['AWS (DynamoDB, SQS, EB)', 'OpenShift'],
+        skill: ['AWS (DynamoDB, SQS, EB)', 'AWS Amplify', 'OpenShift'],
         icon: ['fas', 'cloud']
         
     },

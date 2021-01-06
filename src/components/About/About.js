@@ -1,11 +1,14 @@
 import React from 'react'
 import './About.css'
 import profilepicture from '../../assets/about.png'
+import Fade from 'react-reveal/Fade'
 
 function About(){
 
     return(
     <section className="about-me" id="about">
+        <Fade>
+    
         <h2 className="section__title section__title--about">Who I am</h2>
         <p className="section__subtitle section__subtitle--about">Full Stack Developer / Software Engineer</p>
         
@@ -15,6 +18,7 @@ function About(){
         </div>
         
         <img src={profilepicture} alt=" " className="about-me__img"/>
+        </Fade>
     </section>
  )
 
