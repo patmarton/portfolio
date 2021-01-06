@@ -1,6 +1,9 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import './Header.css'
 import logo from '../../assets/patrikmarton.png'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Header(){
 
@@ -14,10 +17,21 @@ function Header(){
         setActiveMenu(0)
     }
 
+    const notify = () => {
+        toast(<div> Deployed on AWS Amplify <FontAwesomeIcon icon={['fab','aws']}/></div>,{hideProgressBar: true,})
+        toast(<div> Built with React <FontAwesomeIcon icon={['fab','react']}/></div>,{hideProgressBar: true,})
+    }
+
+    useEffect(()=>{
+        notify()
+    },[])
+
+
     return(
         <header className ={ activeMenu ? "nav-open": null}>
             <div className="logo">
                 <img src={logo} alt=""/>
+                <ToastContainer />
             </div>
 
             <button className={ activeMenu ? "nav-open nav-toggle" : "nav-toggle"} aria-label="toggle navigation" onClick={onHamburgerClick}>
@@ -32,6 +46,7 @@ function Header(){
                     <li className="nav__item"><a href="#work" className="nav__link">My Work</a></li>
                 </ul>
             </nav>
+
         </header>
 
     )
