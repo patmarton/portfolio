@@ -26,16 +26,14 @@
 
 .skills {
     margin-bottom: 4em;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .my-skills h3{
 word-wrap: normal;
 }
 
-.skills {
-    max-width: 500px;
-    margin: 0 auto;
-}
 
 .skill{
     border-style: solid;
@@ -65,10 +63,11 @@ word-wrap: normal;
         flex-basis: 40%;
         margin: 10px;
         justify-content: center;
+
     }
 
     .skill h3{
-        font-size: 1.2em;
+        font-size: 3vw;
         
     }
 
