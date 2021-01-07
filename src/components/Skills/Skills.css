@@ -59,12 +59,17 @@ word-wrap: normal;
 @media(max-width:650px){
 
     .skill{
-        width: 40%;
+        min-width: 40%;
         padding: 10px;
         flex: 1;
         flex-basis: 40%;
         margin: 1em;
     }
+
+    .skill h3{
+        font-size: 1.25em;
+    }
+
 
     .skills {
         display: flex;

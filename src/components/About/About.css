@@ -9,6 +9,12 @@
     box-shadow: var(--bs);
 }
 
+@media(max-width: 600px){
+    .about-me__img {
+        display:none;
+    }
+}
+
 @media (min-width: 600px) {
     .about-me {
         display: grid;
