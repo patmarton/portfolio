@@ -12,7 +12,7 @@ const serviceData = [
     {
         id: "3",
         name : "System Design",
-        description: "Good System Design is essential for highly scalable high quality services and applications. I always try to be up to date with the latest technologies and analyze the different decision points to make sure the design is clean, flexible, reseable, maintainable and high quality."
+        description: "Good System Design is essential for highly scalable high quality services and applications. I always try to be up to date with the latest technologies and analyze the different decision points to make sure the design is clean, flexible, reuseable, maintainable and high quality."
     }
 ]
 

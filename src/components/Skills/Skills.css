@@ -44,6 +44,7 @@ word-wrap: normal;
     height: 350px;
     padding: 20px;
     flex: 1;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) )
 }
 
 
@@ -59,7 +60,6 @@ word-wrap: normal;
 
     .skill{
         width: 40%;
-        height: 280px;
         padding: 10px;
         flex: 1;
         flex-basis: 40%;

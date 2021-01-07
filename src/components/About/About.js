@@ -13,7 +13,7 @@ function About(){
         <p className="section__subtitle section__subtitle--about">Full Stack Developer / Software Engineer</p>
         
         <div className="about-me__body">
-            <p>I studied Computer Engineering at the Budapest University of Technology and Economics (BME) where I obtained a Bachelor and Masters degree, majoring in Applied Informatics. During my university studies (from the end of my 2nd year) I started working as a Software Developer intern, where I was invloved in UX research, Data Analitycs and Application Monitoring.</p>
+            <p>I studied Computer Engineering at the Budapest University of Technology and Economics (BME) where I obtained a Bachelor and Masters degree, majoring in Applied Informatics. During my university studies (from the end of my 2nd year) I started working as a Software Developer intern, where I was involved in UX research, Data Analytics and Application Monitoring.</p>
             <p>After my internship, I started working as a full-time Software Engineer, working on a cloud-based microservice architecture for IoT Monitoring and its user interface.</p>
         </div>
         
