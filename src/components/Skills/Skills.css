@@ -64,10 +64,12 @@ word-wrap: normal;
         flex: 1;
         flex-basis: 40%;
         margin: 1em;
+        justify-content: center;
     }
 
     .skill h3{
-        font-size: 1.25em;
+        font-size: 1.2em;
+        
     }
 
 
