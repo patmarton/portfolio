@@ -15,14 +15,14 @@ const skillData=[
     {
         id: "3",
         field: "Cloud / Containers",
-        skill: ['AWS (DynamoDB, SQS, EB)', 'AWS Amplify', 'OpenShift'],
+        skill: ['AWS (DynamoDB, SQS, EB)', 'AWS Amplify', 'OpenShift', 'Docker'],
         icon: ['fas', 'cloud']
         
     },
     {
         id: "4",
         field: "Other",
-        skill: ['Splunk (cerified)', 'Git, Github, GitLab', ' SQL / NoSQL'],
+        skill: ['Splunk (cerified)', 'Git, Github, GitLab', ' SQL / NoSQL', 'MobX'],
         icon: ['fas', 'code-branch']
 
     }
